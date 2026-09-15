@@ -32,7 +32,6 @@ if (process.env.SERVER_ENV === "production") {
   sessionOptions.cookie = {
     sameSite: "none",
     secure: true,
-    domain: process.env.SERVER_URL,
   };
 }
 
